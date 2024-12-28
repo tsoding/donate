@@ -4,7 +4,7 @@ The sole purpose of all these files and scripts is to generate [donate.png](./do
 
 ## Rebuilding
 
-To regenerate the image just call run `./build.sh` script. It uses some external program that you will have to install manually:
+To regenerate the image just run `./build.sh` script. It uses some external program that you will have to install manually:
 
 - [qrencode](https://fukuchi.org/works/qrencode/)
 - [inkscape](https://inkscape.org/)
