@@ -5,6 +5,6 @@ Since I can't monetize any of my content properly either on YouTube, Twitch, Pat
 ![donate](./donate.png)
 
 - BTC: `bc1qj820dmeazpeq5pjn89mlh9lhws7ghs9v34x9v9`
-- Monero: `47WtJDPwdWCFCRDkobFPV4NoesPg8zToj3WSci8FxJRXMQF9G4UBngUSTiQEX5wWWLfWs3D67tR9gbANYfxoTaZsRyUrEkC`
+- XMR: `47WtJDPwdWCFCRDkobFPV4NoesPg8zToj3WSci8FxJRXMQF9G4UBngUSTiQEX5wWWLfWs3D67tR9gbANYfxoTaZsRyUrEkC`
 
 *More options will be available soon*
