@@ -1,11 +1,9 @@
-#!/bin/sh
+#!/bin/sh -xe
 
-set -xe
+QROPTS="--verbose --background=00000000 --foreground=FFFFFFFF"
 
-for line in $(cat wallets.txt); do
-    label=$(echo $line | cut -d: -f1)
-    address=$(echo $line | cut -d: -f2)
-    qrencode --verbose -s 10 --background=00000000 --foreground=FFFFFFFF -o $label.png $address
-done
-
-inkscape -w 1024 --export-type="png" donate.svg
+xargs -a wallets.txt -P4 -n1 -- /usr/bin/env QROPTS="$QROPTS" sh -c '
+    label="${1%%:*}"; address="${1#*:}";
+    qrencode -t SVG --svg-path-width=1024 $QROPTS -o "$label.svg" "$address"
+    qrencode -s 10 $QROPTS -o "$label.png" "$address"
+' _
