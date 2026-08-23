@@ -9,3 +9,7 @@ Since I can't monetize any of my content properly either on YouTube, Twitch, Pat
 - *More options will be available soon*
 
 I understand that Crypto is not the most convenient way to donate. Please do not feel obligated to do so. Just enjoy the content.
+
+## No reward
+
+Keep in mind that there is no reward for donating through crypto as of right now because I haven't figured out how to integrate it with Discord or any kind of TTS on the stream. Use it only if you just want to support me in a way that actually pays my bills.
